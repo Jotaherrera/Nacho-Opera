@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="NachoOperaMulti">
+      <HintPath>..\..\Libraries\NachoOperaMulti.dll</HintPath>
+    </Reference>
+    <Reference Include="NachoOperaOperaciones">
+      <HintPath>..\..\Libraries\NachoOperaOperaciones.dll</HintPath>
+    </Reference>
+    <Reference Include="NachoOperaResta">
+      <HintPath>..\..\Libraries\NachoOperaResta.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
